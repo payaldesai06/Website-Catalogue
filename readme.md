@@ -23,6 +23,6 @@ https://api.postman.com/collections/20882212-908a0a7d-7929-4336-81dc-2151e1ec2c5
     1. Email - payal.desai06@gmail.com
     2. Password - 123456
 
-7) Database sql file is attached with tables and some data: website.catalogue.sql
+7) Database sql file is attached with tables and some data - website_catalogue.sql
 
 For more details, please ask me anytime; I am available. Thanks.

@@ -1,10 +1,10 @@
 1) Git link for code:
-https://github.com/payaldesai06/websiteCatalogue.git
+https://github.com/payaldesai06/Website-Catalogue
 
 2) Database:
-username - root
-password - 
-DB name - website_catalogue
+username -> root
+password -> none 
+DB name -> website_catalogue
 
 3) Commands to run after getting code:
 composer install

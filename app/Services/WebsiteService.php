@@ -27,7 +27,7 @@ class WebsiteService {
     if (!$authUser || ($authUser && !$authUser->adminAuthorized())) {
       $result->where('status', 1);
     }
-    $result->withCount('votes')->orderBy('votes_count', 'desc');
+    $result->withCount('votes')->orderBy('votes_count', 'desc'); //based on votes the most relevant content is always at the top
     return $result->paginate($perPage);
   }
 

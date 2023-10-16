@@ -21,7 +21,6 @@ class GetListWebsiteRequest extends FormRequest {
   public function rules(): array {
     return [
       'filter.name' => 'nullable|string|max:255',
-      'filter.link' => 'nullable|string|max:255',
       'pageSize' => 'nullable|integer|min:1',
     ];
   }
@@ -29,8 +28,6 @@ class GetListWebsiteRequest extends FormRequest {
     return [
       'filter.name.string' => 'The filter name field is supported only string type.',
       'filter.name.max' => 'The filter name field maximum length is 255.',
-      'filter.link.string' => 'The filter link field is supported only string type.',
-      'filter.link.max' => 'The filter link field maximum length is 255.',
     ];
   }
 }
